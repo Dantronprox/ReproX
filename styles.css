@@ -1,56 +1,47 @@
-body {
-    background-color: #121212; /* Fondo negro */
-}
-
-.player {
-    background-color: #242424; /* Fondo ligeramente más claro */
-    color: #fff; /* Texto blanco */
-    padding: 20px;
-    border-radius: 10px;
-}
-
-.controls button {
-    background-color: #3f51b5; /* Azul */
-    color: #fff;
-    border: none;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 5px;
-}
-
-.progress-bar {
-    background-color: #673AB7; /* Morado */
-    height: 10px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-
 
 body {
     background-color: #121212;
     color: #fff;
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: end;
+    margin: 60px;
 }
 
 .Reproductor {
     
     text-align: center;
-    margin: 50px;
+
     width: 500px;
     background-color: #242424;
     border-radius: 10px;
-    padding: 20px;
-    height: auto;
+    padding: 30px;
+    height: 500px;
+    
 }
 
 .portada {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 330px;
     border-radius: 10px;
     
 }
 
 .song-title {
-    margin-top: 10px;
+    margin-top: 30px;
+}
+
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.controls button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 0 10px;
 }
