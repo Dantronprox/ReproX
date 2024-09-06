@@ -37,11 +37,33 @@ body {
     justify-content: center;
 }
 
-.controls button {
-    background-color: transparent;
+
+
+.player-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6650705f;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.control-button {
+    background: none;
     border: none;
     color: #fff;
     font-size: 24px;
     cursor: pointer;
     margin: 0 10px;
+    transition: all 0.3s ease-in-out;
 }
+
+.control-button:hover {
+    background-color: rgba(100, 5, 112, 0.348);
+border-radius: 5px;
+
+}
+
+
+
+
