@@ -65,5 +65,40 @@ border-radius: 5px;
 }
 
 
+.playlist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.playlist-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.playlist-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.song-info {
+    flex: 1;
+}
+
+.song-info h2 {
+    margin: 0;
+}
+
+.lista {
+
+display: flex;
+flex-direction: column;
+justify-items: flex-start;
 
 
+
+}
