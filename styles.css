@@ -3,21 +3,24 @@ body {
     background-color: #121212;
     color: #fff;
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: end;
+    justify-content: space-between;
     margin: 60px;
+width: 100%;
+    
 }
 
 .Reproductor {
-    
+    display: flex;
     text-align: center;
-
-    width: 500px;
-    background-color: #242424;
+    flex-direction: column;
+    width: 60%;
+   
     border-radius: 10px;
-    padding: 30px;
-    height: 500px;
     
+    align-items: center;
+
+
+
 }
 
 .portada {
@@ -46,6 +49,7 @@ body {
     background-color: #6650705f;
     padding: 10px;
     border-radius: 5px;
+    gap: 40px;
 }
 
 .control-button {
@@ -64,16 +68,33 @@ border-radius: 5px;
 
 }
 
+.container {
+
+
+        display: flex;
+        justify-content: space-between;
+        
+    
+    
+}
+
+
+
 
 .playlist {
+
+
+    flex: 1 0 30%;
     list-style: none;
     padding: 0;
-    margin: 0;
+    
+    
+    border-right: 1px solid #ccc;
 }
 
 .playlist-item {
     display: flex;
-    align-items: center;
+    
     padding: 10px;
     border-bottom: 1px solid #ddd;
 }
@@ -85,20 +106,9 @@ border-radius: 5px;
     margin-right: 10px;
 }
 
-.song-info {
-    flex: 1;
-}
 
 .song-info h2 {
     margin: 0;
 }
 
-.lista {
 
-display: flex;
-flex-direction: column;
-justify-items: flex-start;
-
-
-
-}
