@@ -14,7 +14,7 @@ width: 100%;
     text-align: center;
     flex-direction: column;
     width: 60%;
-   
+   padding: 60px;
     border-radius: 10px;
     
     align-items: center;
@@ -86,7 +86,7 @@ border-radius: 5px;
 
     flex: 1 0 30%;
     list-style: none;
-    padding: 0;
+    padding: 60px;
     
     
     border-right: 1px solid #ccc;
@@ -110,5 +110,47 @@ border-radius: 5px;
 .song-info h2 {
     margin: 0;
 }
+
+
+.repros{
+
+padding-left: 5%;
+
+}
+
+    .cabecera {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        
+      }
+      
+      .buscador {
+        display: flex;
+      }
+      
+      .buscador input {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 10px;
+      }
+      
+      .buscador button {
+        padding: 10px 20px;
+        background-color: #555;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
 
 
