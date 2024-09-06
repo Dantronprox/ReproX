@@ -22,6 +22,23 @@ axios.get('https://api.institutoalfa.org/api/songs')
             </div>
         `
 
+        
+        div.addEventListener("click", () => {
+
+        document.getElementById("current-song-image").setAttribute("src", "https://api.institutoalfa.org/api/songs/image/" + song.image.filename)
+        
+        document.getElementById("current-song-title").innerHTML= song.title
+        
+
+        
+        
+        })
+
+
+
+
+
+
 
 
         container.appendChild(div)
