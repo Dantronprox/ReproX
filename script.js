@@ -1,3 +1,4 @@
+const query = new URLSearchParams(window.location.search).get("query")
 axios.get('https://api.institutoalfa.org/api/songs')
   .then(function (response) {
     // handle success
@@ -29,7 +30,7 @@ axios.get('https://api.institutoalfa.org/api/songs')
         
         document.getElementById("current-song-title").innerHTML= song.title
         
-
+document.getElementById("current-song-audio").setAttribute("src", "https://api.institutoalfa.org/api/songs/audio/" + song.audio.filename)
         
         
         })
